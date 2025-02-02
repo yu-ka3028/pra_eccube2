@@ -1,3 +1,13 @@
+# pra_eccube2
+### git
+```
+git init
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/yu-ka3028/pra_eccube2.git
+git push -u origin main
+```
+
 # EC-CUBE 2.17系
 
 [![CI/CD for EC-CUBE](https://github.com/EC-CUBE/ec-cube2/actions/workflows/main.yml/badge.svg)](https://github.com/EC-CUBE/ec-cube2/actions/workflows/main.yml)
