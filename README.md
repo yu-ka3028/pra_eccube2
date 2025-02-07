@@ -20,6 +20,11 @@ ec-cube2/docs/database-schema/README.md
 
 - url: .php のファイル名（例　 shopping/complete.php）
 - filename: .tpl のファイル名（例　 shopping/complete）
+insett文はec-cube2/html/install/sql/insert_data.sqlから引用
+```sql
+INSERT INTO `dtb_pagelayout` (`device_type_id`, `page_id`, `page_name`, `url`, `filename`, `header_chk`, `footer_chk`, `edit_flg`, `author`, `description`, `keyword`, `update_url`, `create_date`, `update_date`, `meta_robots`) VALUES ('10', '29', '新着情報', 'news/index.php', 'news/news', '1', '1','2', NULL, NULL, NULL, NULL, CURRENT_TIME(), CURRENT_TIME(), NULL);
+```
+  - 端末ごとにページ設定できる `mysql> select * from mtb_device_type \G`
 
 ### git
 
